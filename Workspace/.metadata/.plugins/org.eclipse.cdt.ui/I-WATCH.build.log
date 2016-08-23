@@ -1,0 +1,21 @@
+16:46:54 **** Incremental Build of configuration Debug for project I-WATCH ****
+make all 
+Building file: ../src/I-WATCH.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__USE_CMSIS=CMSISv1p30_LPC17xx -D__CODE_RED -D__NEWLIB__ -I"C:\Users\Wong Kok Woo\Downloads\EE2024Workspace\Lib_CMSISv1p30_LPC17xx\inc" -I"C:\Users\Wong Kok Woo\Downloads\EE2024Workspace\Lib_EaBaseBoard\inc" -I"C:\Users\Wong Kok Woo\Downloads\EE2024Workspace\Lib_MCU\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/I-WATCH.d" -MT"src/I-WATCH.d" -o "src/I-WATCH.o" "../src/I-WATCH.c"
+Finished building: ../src/I-WATCH.c
+ 
+Building target: I-WATCH.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\Users\Wong Kok Woo\Downloads\EE2024Workspace\Lib_CMSISv1p30_LPC17xx\Debug" -L"C:\Users\Wong Kok Woo\Downloads\EE2024Workspace\Lib_EaBaseBoard\Debug" -L"C:\Users\Wong Kok Woo\Downloads\EE2024Workspace\Lib_MCU\Debug" -Xlinker --gc-sections -Xlinker -Map=I-WATCH.map -mcpu=cortex-m3 -mthumb -T "I-WATCH_Debug.ld" -o "I-WATCH.axf"  ./src/I-WATCH.o ./src/cr_startup_lpc17.o   -lCMSISv1p30_LPC17xx -lLib_EaBaseBoard -lLib_MCU
+Finished building target: I-WATCH.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size I-WATCH.axf; # arm-none-eabi-objdump -h -S I-WATCH.axf >I-WATCH.lss
+   text	   data	    bss	    dec	    hex	filename
+  52848	   2332	    988	  56168	   db68	I-WATCH.axf
+ 
+
+16:46:55 Build Finished (took 1s.79ms)
+

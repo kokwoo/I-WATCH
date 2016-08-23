@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;test/src/main.c&apos; to &apos;test.c&apos;" description="Rename resource &apos;main.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main.c" name="test.c" stamp="1459861153879" updateReferences="true"/>&#x0A;<refactoring comment="Create method setLed" description="Extract Method Refactoring" fileName="file:/C:/Users/Wong%20Kok%20Woo/Downloads/EE2024Workspace/test/src/test.c" flags="4" id="org.eclipse.cdt.internal.ui.refactoring.extractfunction.ExtractFunctionRefactoring" name="setLed" replaceDuplicates="false" selection="2948,90" stamp="1459869493342" visibility="private"/>
+</session>

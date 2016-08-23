@@ -1,0 +1,6 @@
+11:30:05 **** Incremental Build of configuration Debug for project I-WATCH_EE2024 ****
+make all 
+make: Nothing to be done for `all'.
+
+11:30:05 Build Finished (took 312ms)
+
